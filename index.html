@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Za male firme koje isporučuju robu: eOtpremnica pri svakoj isporuci, praćenje ePrijemnice kupca i usaglašavanje sa fakturom po količinama.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Otpremnica Lako</a></div>
-  <nav class="top"><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Otpremnica Lako</a>
+  <nav><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Elektronska otpremnica za svaku isporuku — i usaglašena sa prijemnicom i fakturom</h1>
-    <p class="sub">Za male firme i preduzetnike u Srbiji koji šalju robu kupcima: otpremnica se pravi iz porudžbine ili ručno, šalje se kroz sistem elektronskih otpremnica, ePrijemnica kupca se prati, a razlike u količinama između otpremnice, prijemnice i fakture vidite pre nego što postanu problem.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Ovo mi treba</a>
-    <p class="cta-note">Usluga u pripremi · Na ovoj stranici se ne prima plaćanje</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Za male firme i preduzetnike</p>
+      <h1 class="rise" style="--i:1" data-len="long">Elektronska otpremnica za svaku isporuku&nbsp;<span class="soft">— i usaglašena sa prijemnicom i fakturom</span></h1>
+      <p class="rise" style="--i:2">Za male firme i preduzetnike u Srbiji koji šalju robu kupcima: otpremnica se pravi iz porudžbine ili ručno, šalje se kroz sistem elektronskih otpremnica, ePrijemnica kupca se prati, a razlike u količinama između otpremnice, prijemnice i fakture vidite pre nego što postanu problem.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Ovo mi treba</a>
+      <p class="meta rise" style="--i:4">Usluga u pripremi · Na ovoj stranici se ne prima plaćanje</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="36" fill="#0a1524" font-weight="600">Elektronska otpremnica</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="292" font-size="32" fill="#0a1524">eOtpremnica</text><rect x="130" y="370" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="402" font-size="32" fill="#0a1524">ePrijemnica</text><rect x="130" y="480" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="512" font-size="32" fill="#0a1524">Razlike na vreme</text><rect x="700" y="260" width="380" height="400" fill="#dfe8f7" rx="20" /><text x="730" y="320" font-size="32" fill="#0a1524" font-weight="600">u pripremi</text><rect x="740" y="420" width="48" height="200" fill="#ffffff" rx="8" /><rect x="820" y="480" width="48" height="140" fill="#12397a" rx="8" /><rect x="900" y="380" width="48" height="240" fill="#ffffff" rx="8" /><rect x="980" y="520" width="48" height="100" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Za</dt><dd>Male firme i preduzetnike</dd></div>
+      <div><dt>Šalje</dt><dd>Kroz sistem elektronskih otpremnica</dd></div>
+      <div><dt>Količine</dt><dd>Razlike u količinama</dd></div>
+      <div><dt>Usluga</dt><dd>Usluga u pripremi</dd></div>
+    </dl>
+  </section>
 
   <section id="sta" data-view="features_view">
-    <h2>Šta dobijate</h2>
-    <div class="grid">
-      <div class="card"><b>eOtpremnica</b><span>Pravi se pri svakoj isporuci, iz porudžbine ili ručno.</span><br><a class="btn" href="price.html" data-ev="feature_otpremnica">Ovo mi treba</a></div>
-      <div class="card"><b>ePrijemnica</b><span>Vidite da li je kupac primio robu i u kojoj količini.</span><br><a class="btn" href="price.html" data-ev="feature_prijemnica">Ovo mi treba</a></div>
-      <div class="card"><b>Veza sa fakturom</b><span>Otpremnica, prijemnica i faktura usaglašene po količinama.</span><br><a class="btn" href="price.html" data-ev="feature_faktura">Ovo mi treba</a></div>
-      <div class="card"><b>Razlike na vreme</b><span>Manjak, višak ili odbijena stavka označeni odmah.</span><br><a class="btn" href="price.html" data-ev="feature_razlike">Ovo mi treba</a></div>
+    <div class="stack"><h2>Šta dobijate</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="32" fill="#0a1524" font-weight="600">eOtpremnica</text><rect x="110" y="200" width="40" height="40" fill="#dfe8f7" rx="8" /><polyline points="118,222 128,232 142,212" fill="none" stroke="#12397a" stroke-width="4" /><text x="170" y="230" font-size="30" fill="#0a1524">svakoj isporuci</text><rect x="110" y="310" width="40" height="40" fill="#dfe8f7" rx="8" /><polyline points="118,332 128,342 142,322" fill="none" stroke="#12397a" stroke-width="4" /><text x="170" y="340" font-size="30" fill="#0a1524">iz porudžbine</text><rect x="170" y="470" width="220" height="16" fill="#dde2ea" rx="8" /><rect x="410" y="470" width="140" height="16" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>eOtpremnica</h3><p>Pravi se pri svakoj isporuci, iz porudžbine ili ručno.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_otpremnica">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="120" y="70" width="520" height="460" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="160" y="140" font-size="32" fill="#0a1524" font-weight="600">ePrijemnica</text><text x="160" y="200" font-size="30" fill="#566174">primio robu</text><rect x="160" y="250" width="360" height="18" fill="#dde2ea" rx="8" /><rect x="160" y="290" width="280" height="18" fill="#b9c3d2" rx="8" /><rect x="160" y="330" width="400" height="18" fill="#dde2ea" rx="8" /><rect x="160" y="370" width="180" height="18" fill="#b9c3d2" rx="8" /><circle cx="560" cy="450" r="36" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="540,450 554,466 584,430" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>ePrijemnica</h3><p>Vidite da li je kupac primio robu i u kojoj količini.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_prijemnica">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="110" width="250" height="380" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="490" y="110" width="250" height="380" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="84" y="170" font-size="30" fill="#0a1524" font-weight="600">faktura</text><text x="514" y="170" font-size="30" fill="#0a1524" font-weight="600">količinama</text><rect x="84" y="220" width="180" height="16" fill="#dde2ea" rx="8" /><rect x="84" y="260" width="140" height="16" fill="#b9c3d2" rx="8" /><rect x="84" y="300" width="160" height="16" fill="#dde2ea" rx="8" /><rect x="514" y="220" width="170" height="16" fill="#dde2ea" rx="8" /><rect x="514" y="260" width="120" height="16" fill="#12397a" rx="8" /><rect x="514" y="300" width="190" height="16" fill="#b9c3d2" rx="8" /><polygon points="330,280 400,280 400,264 450,292 400,320 400,304 330,304" fill="#12397a" /></svg></div>
+        <h3>Veza sa fakturom</h3><p>Otpremnica, prijemnica i faktura usaglašene po količinama.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_faktura">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="140" font-size="32" fill="#0a1524" font-weight="600">Razlike na vreme</text><rect x="110" y="190" width="500" height="64" fill="#dfe8f7" rx="28" stroke="#12397a" stroke-width="4" /><rect x="130" y="206" width="28" height="32" fill="#12397a" rx="6" /><text x="176" y="232" font-size="30" fill="#0a1524">odbijena stavka</text><rect x="110" y="290" width="500" height="64" fill="#dfe8f7" rx="28" /><rect x="130" y="306" width="28" height="32" fill="#b9c3d2" rx="6" /><text x="176" y="332" font-size="30" fill="#0a1524">Manjak</text></svg></div>
+        <h3>Razlike na vreme</h3><p>Manjak, višak ili odbijena stavka označeni odmah.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_razlike">Ovo mi treba</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Primer (izmišljeni podaci)</h2>
-    <p class="fine">Mala veleprodaja građevinskog materijala sa 40 kupaca. Ujutru se za šest isporuka prave otpremnice iz porudžbina. Do podneva četiri kupca potvrde prijemnice, jedan prijavi manjak od dve vreće, a jedan ne odgovori. Faktura za kupca sa manjkom ide sa ispravljenom količinom, a za onog koji nije odgovorio stiže podsetnik.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Primer</h2>
+      <p>Mala veleprodaja građevinskog materijala sa 40 kupaca. Ujutru se za šest isporuka prave otpremnice iz porudžbina. Do podneva četiri kupca potvrde prijemnice, jedan prijavi manjak od dve vreće, a jedan ne odgovori. Faktura za kupca sa manjkom ide sa ispravljenom količinom, a za onog koji nije odgovorio stiže podsetnik.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">isporuka</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">manjak</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">podsetnik</text><rect x="120" y="300" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" fill="#0a1524" font-weight="600">prijemnice</text><text x="170" y="460" font-size="32" fill="#566174">šest isporuka</text><rect x="170" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="260" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="350" y="530" width="64" height="64" fill="#12397a" rx="12" /><rect x="440" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="530" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="620" y="530" width="64" height="64" fill="#dfe8f7" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kako radi</h2>
-    <p>Od uvođenja elektronskih otpremnica, firme koje isporučuju robu prave otpremnicu u elektronskom obliku, a kupac na nju odgovara elektronskom prijemnicom. Za malu firmu to znači još jedan dokument pri svakoj isporuci, pored fakture koja ide kroz sistem elektronskih faktura.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kako radi</h2></div>
+    <div class="stack">
+      <p>Od uvođenja elektronskih otpremnica, firme koje isporučuju robu prave otpremnicu u elektronskom obliku, a kupac na nju odgovara elektronskom prijemnicom. Za malu firmu to znači još jedan dokument pri svakoj isporuci, pored fakture koja ide kroz sistem elektronskih faktura.</p>
     <p>Portal Ministarstva finansija omogućava da se otpremnice prave i šalju, ali svaka se unosi posebno, a veza sa fakturom i prijemnicom ostaje na vama. Kada je isporuka mnogo, lako je izgubiti iz vida koja otpremnica nije potvrđena, gde je kupac prijavio manjak i da li faktura odgovara onome što je zaista primljeno.</p>
     <p>Program pravi otpremnicu pri svakoj isporuci. Možete je napraviti iz porudžbine ili ručno: kupac, roba, količine, mesto isporuke, prevoznik. Otpremnica se šalje kroz sistem elektronskih otpremnica i ostaje sačuvana uz porudžbinu.</p>
     <p>Kada kupac primi robu, njegova ePrijemnica se vidi pored otpremnice: da li je roba primljena u celosti, da li je prijavljen manjak ili višak i da li je neka stavka odbijena. Otpremnice na koje kupac nije odgovorio označene su posebno.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Na kraju meseca vidite koliko je isporuka bilo, koliko je potvrđeno bez razlika, koliko je imalo manjak ili višak i kod kojih kupaca se razlike ponavljaju. To pomaže da se poprave pakovanje i komunikacija sa kupcima.</p>
     <p>Početak traje jedno veče: podaci firme, kupci i artikli. Program radi u pregledaču na računaru, tabletu i telefonu, bez instalacije.</p>
     <p>Program je namenjen malim firmama i preduzetnicima u Srbiji koji isporučuju robu. U pripremi je: prvo proveravamo da li je firmama potreban. Za dokumente i njihovu tačnost odgovara firma.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pitanja i odgovori</h2>
-    <h3>Kome je program namenjen?</h3>
-    <p>Malim firmama i preduzetnicima u Srbiji koji isporučuju robu kupcima.</p>
-    <h3>Da li se otpremnica šalje kroz sistem elektronskih otpremnica?</h3>
-    <p>Da, program je pravi i šalje, i čuva je uz porudžbinu.</p>
-    <h3>Kako se otpremnica povezuje sa fakturom?</h3>
-    <p>Faktura se pravi iz potvrđene otpremnice, sa količinama iz ePrijemnice kupca.</p>
-    <h3>Treba li nešto instalirati?</h3>
-    <p>Ne, program radi u pregledaču na računaru, tabletu i telefonu.</p>
-    <h3>Mogu li već da ga koristim?</h3>
-    <p>Još ne. Program je u pripremi i proveravamo da li je firmama potreban.</p>
+    <div class="stack"><h2>Pitanja i odgovori</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Kome je program namenjen?</h3><p>Malim firmama i preduzetnicima u Srbiji koji isporučuju robu kupcima.</p></div>
+      <div class="split flip"><h3>Da li se otpremnica šalje kroz sistem elektronskih otpremnica?</h3><p>Da, program je pravi i šalje, i čuva je uz porudžbinu.</p></div>
+      <div class="split flip"><h3>Kako se otpremnica povezuje sa fakturom?</h3><p>Faktura se pravi iz potvrđene otpremnice, sa količinama iz ePrijemnice kupca.</p></div>
+      <div class="split flip"><h3>Treba li nešto instalirati?</h3><p>Ne, program radi u pregledaču na računaru, tabletu i telefonu.</p></div>
+      <div class="split flip"><h3>Mogu li već da ga koristim?</h3><p>Još ne. Program je u pripremi i proveravamo da li je firmama potreban.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodajte svoju firmu</h2>
-    <p><label>Isporuka mesečno<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— izaberite —</option><option>Do 20</option><option>20–100</option><option>100–500</option><option>Više od 500</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Počnite</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodajte svoju firmu</h2>
+    </div>
+    <div class="tile stack">
+      <label>Isporuka mesečno<select data-ev-focus="form_start"><option value="">— izaberite —</option><option>Do 20</option><option>20–100</option><option>100–500</option><option>Više od 500</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Počnite</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Otpremnica Lako</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Politika privatnosti</a></p>
-  <p class="muted">Program za otpremnice i prijemnice vaše firme. Za dokumente i njihovu tačnost odgovara firma.</p>
+  <p>Program za otpremnice i prijemnice vaše firme. Za dokumente i njihovu tačnost odgovara firma.</p>
 </div></footer>
 
 </body>
